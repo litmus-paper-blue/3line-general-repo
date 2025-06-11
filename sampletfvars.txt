@@ -1,0 +1,16 @@
+aws_region    = "us-east-1"
+environment   = "dev"
+container_name = "3line-container"
+ecs_cluster_name = "3line-cluster"
+ecr_name = "3line-ecr"
+task_definition_family = "3line-task-td"
+service_name = "3line-service"
+ecs_task_execution_role_name = "3line-ecs-execution-role"
+task_role_policy = "ecs-task-base-policy"
+ecs_task_role = "3line-ecs-task-role"
+execution_role_policy = "ecs-task-execution-role"
+
+
+amplify_app_name    = "3line-frontend-app"
+amplify_repository  = "https://github.com/cog3line/3line_frontend"
+amplify_branch_name = "main"
